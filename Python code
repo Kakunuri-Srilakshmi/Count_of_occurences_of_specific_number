@@ -1,0 +1,7 @@
+arr = [2,3,4,56,4,67,3,2,4,3,3,2,6]
+number = int(input("Enter the Number:"))
+count = 0
+for num in arr:
+    if num == number:
+     count += 1
+print(f"The number {number} appears {count} times in the array.")
